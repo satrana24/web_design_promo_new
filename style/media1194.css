@@ -1,0 +1,518 @@
+@media screen and (max-width: 1195px) {
+
+  .grid-container {
+    width: 100%;
+    max-width: 960px;
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+  }
+
+  .main-header {
+    margin-top: 16px;
+  }
+
+    .logo {
+    font-size: 24px;
+  }
+
+  .nav-link {
+    font-size: 16px;
+  }
+
+  .tasks-section,
+  .solution-section,
+  .method-section,
+  .advantage-section,
+  .train-section,
+  .review-section,
+  .action-section,
+  .main-footer {
+    margin-top: 80px;
+  }
+  
+  .hero-section {
+    margin-top: 60px;
+  }
+
+  .hero-content {
+    grid-column: 1 / span 4;
+    grid-template-columns: subgrid; 
+  }
+
+  .hero-title {
+    font-size: 40px;
+  }
+
+  .hero-text {
+    margin-top: 24px;
+    font-size: 19px;
+    letter-spacing: -0.011em;
+  }
+
+  .hero-button {
+    grid-column: 1 / span 2;
+    margin-top: 24px;
+    font-size: 18px;
+    padding: 16px 0;
+    border-radius: 10px;
+  }
+
+  .hero-image-wrapper {
+    grid-column: 5 / span 4;
+    height: 462px;
+    border-radius: 18px;
+  }
+
+  .hero-image {
+    height: 100%;
+    object-fit: cover;
+    transform: none;
+  }
+
+  .tasks-section,
+  .solution-section,
+  .method-section,
+  .advantage-section,
+  .train-section,
+  .review-section,
+  .action-section,
+  .main-footer {
+    display: grid;
+    grid-template-columns: subgrid;
+  }
+
+  .tasks-content {
+    grid-column: 1 / span 8;
+    display: grid;
+    grid-template-columns: subgrid;
+    row-gap: 0;
+  }
+  
+  .title {
+    grid-column: 1 / span 8;
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+
+  .subtitle {
+    grid-column: 1 / span 8;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .label {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 8px;
+  }
+
+  .tasks-grid {
+    display: grid;
+    grid-template-columns: subgrid;
+    row-gap: 16px;
+    column-gap: 16px;
+    margin-top: 24px;
+  }
+
+  .image-1 {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    height: 227px;
+    border-radius: 18px;
+  }
+
+  .card-1 {
+    grid-column: 1 / span 2;
+    grid-row: 2;
+    height: 227px;
+    border-radius: 18px;
+  }
+
+  .card-2 {
+    grid-column: 3 / span 2;
+    grid-row: 1;
+    height: 227px;
+    border-radius: 18px;
+  }
+
+  .image-2 {
+    grid-column: 3 / span 2;
+    grid-row: 2;
+    height: 227px;
+    border-radius: 18px;
+  }
+
+  .large-card {
+    grid-column: 5 / span 4;
+    grid-row: 1 / span 2;
+    height: 470px;
+    border-radius: 18px;
+  }
+
+  .task-card {
+    padding: 16px;
+  }
+
+  .task-number {
+    font-size: 24px;
+  }
+
+  .task-text {
+    font-size: 18px;
+  }
+
+  .solution-card {
+    height: 92px;
+    padding: 16px;
+    font-size: 20px;
+    margin-top: 24px; 
+    border-radius: 18px;
+  }
+
+  .card-a {
+    grid-column: 1 / span 2;
+  }
+
+  .card-b {
+    grid-column: 3 / span 2;
+  }
+
+  .card-c {
+    grid-column: 5 / span 2;
+  }
+
+  .card-d {
+    grid-column: 7 / span 2;
+  }
+
+  .method-section {
+    display: grid;
+    grid-template-columns: subgrid;
+    grid-template-rows:
+    auto
+    0
+    auto
+    0
+    auto
+    24px
+    auto
+    16px
+    auto;
+    row-gap: 0;
+    column-gap: 16px;
+  }
+
+  .method-section .label {
+    grid-row: 1;
+  }
+
+  .method-section .title {
+    grid-row: 3;
+  }
+
+  .method-section .subtitle {
+    grid-row: 5;
+    margin-top: 0 !important;
+  }
+
+  .method-card-1 {
+    grid-column: 1 / span 2;
+    grid-row: 7;
+    margin-top: 0px;
+  }
+
+  .method-card-2 {
+    grid-column: 3 / span 2;
+    margin-top: 0px;
+    grid-row: 7;
+  }
+
+  .method-card-3 {
+    grid-column: 5 / span 2;
+    margin-top: 0px;
+    grid-row: 7;
+  }
+
+  .method-card-4 {
+    grid-column: 7 / span 2;
+    margin-top: 0px;
+    grid-row: 7;
+  }
+
+  .method-card-5 {
+    grid-column: 1 / span 2;
+    margin-top: 0px;
+    grid-row: 9;
+  }
+
+  .method-number,
+  .method-title,
+  .method-text {
+    font-size: 18px;
+  }
+
+  .method-text {
+    margin-top: 0;
+  }
+
+  .method-number {
+    margin-bottom: 0;
+  }
+
+  .method-number2 {
+    font-size: 18px;
+  }
+
+  .method-tag,
+  .method-tag2 {
+    margin-top: 4px;
+    margin-bottom: 8px;
+    font-size: 18px;
+    border-radius: 10px;
+  }
+
+  .advantage-section {
+    display: grid;
+    grid-template-columns: subgrid;
+    grid-template-rows: auto 0 auto 0 auto 24px auto 16px auto;
+    column-gap: 16px;
+  }
+
+  .advantage-section .label {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    align-self: start;
+  }
+
+  .advantage-section .title {
+    grid-column: 1 / span 8; 
+    grid-row: 3;
+    margin-top: 0; 
+  }
+
+  .advantage-section .subtitle {
+    grid-column: 1 / span 8; 
+    grid-row: 5;
+    margin-top: 0 !important;
+  }
+
+  .advantage-section .advantage-card-1 {
+    grid-column: 1 / span 4;
+    grid-row: 7;    
+    height: 194px;
+    margin-top: 0 !important;
+  }
+
+  .advantage-section .advantage-card-3 {
+    grid-column: 5 / span 4;
+    grid-row: 7;             
+    height: 194px;
+    margin-top: 0 !important; 
+  }
+
+  .advantage-section .advantage-card-2 {
+    grid-column: 1 / span 4;
+    grid-row: 9;             
+    height: 194px;
+    margin-top: 0 !important;
+  }
+
+  .advantage-section .advantage-card-4 {
+    grid-column: 5 / span 4;
+    grid-row: 9;    
+    height: 194px;
+    margin-top: 0 !important; 
+  }
+
+  .advantage-card, 
+  .advantage-card-dark {
+    padding: 16px;
+    border-radius: 10px;           
+  }
+
+  .advantage-title, 
+  .advantage-title-dark {
+    font-size: 20px;         
+  }
+
+  .advantage-text, 
+  .advantage-text-dark {
+    font-size: 18px;         
+  }
+
+  .train-section {
+    display: grid;
+    grid-template-columns: subgrid;
+  }
+
+  .train-section .title {
+    grid-column: 1 / span 8;
+  }
+
+  .train-section .subtitle {
+    grid-column: 1 / span 8;
+    margin-top: 0;
+  }
+
+  .train-image {
+    grid-column: 1 / span 3;
+    margin-top: 24px;
+    width: 100%;
+    height: 592px;
+    object-fit: cover;
+    border-radius: 18px;
+  }
+
+  .train-items {
+    grid-column: 4 / span 5;
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: subgrid;
+    row-gap: 16px;
+  }
+
+  .train-item {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: subgrid;
+    row-gap: 8px;
+  }
+
+  .train-tag {
+    grid-column: 1 / span 2;
+    font-size: 18px;
+    padding: 9px 0;
+    border-radius: 10px;
+  }
+
+  .train-text {
+    grid-column: 1 / -1;
+    font-size: 18px;
+  }
+
+  .reviews-viewport {
+    grid-column: 1 / -1;
+    margin-top: 24px;
+    overflow: hidden;
+  }
+
+  .reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 472px);
+    column-gap: 16px;
+    transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+  }
+
+  .review-card {
+    border: 1px solid #305999;
+    border-radius: 18px;
+    padding-top: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .review-text {
+    padding: 0 16px;
+    margin-bottom: 24px;
+    font-size: 18px;
+  }
+
+  .review-user {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 0 16px 16px 16px;
+  }
+
+  .user-avatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .user-name {
+    font-size: 18px;
+  }
+
+  .user-role {
+    font-size: 16px;
+    opacity: 0.5;
+  }
+
+  .reviews-arrows {
+    margin-top: 16px;
+  }
+
+  .action-title {
+    grid-column: 2 / span 6;
+    font-size: 24px;
+  }
+
+  .action-subtitle {
+    grid-column: 2 / span 6;
+    margin-top: 16px;
+    font-size: 20px;
+  }
+
+  .action-button {
+    grid-column: 3 / span 4;
+    margin-top: 24px;
+    font-size: 18px;
+    border-radius: 10px;
+  }
+
+  .main-footer {
+    grid-column: 1 / -1;
+    height: 218px;
+    margin-bottom: 24px;
+    padding: 24px 0 24px 24px;
+    display: grid;
+    grid-template-columns: subgrid;
+    column-gap: 16px;
+    border: 1px solid #305999;
+    border-radius: 18px;
+    grid-template-rows: auto 1fr;
+  }
+
+  .footer-slogan {
+    grid-column: 1 / span 3;
+    grid-row: 1;
+    align-self: start;
+    margin: 0;
+    font-size: 24px;
+  }
+
+  .footer-contacts {
+    grid-column: 5 / span 1;
+    grid-row: 1;
+  }
+
+  .footer-nav {
+    grid-column: 7 / span 2;
+    grid-row: 1;
+  }
+
+
+  .footer-block-title {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+
+  .footer-link {
+    font-size: 16px;
+  }
+
+  .footer-logo {
+    grid-column: 1 / span 3;
+    grid-row: 2;
+    align-self: end;
+    margin-top: -20px;
+    font-size: 72px;
+    line-height: 0.1;
+    letter-spacing: -0.1em;
+    margin-bottom: 30px;
+  }
+
+}

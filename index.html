@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Мемора</title>
+        <link href="https://fonts.googleapis.com/css2?family=Onest:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style/index.css">
+        <link rel="stylesheet" href="style/media1440.css">
+        <link rel="stylesheet" href="style/media1194.css">
+        <link rel="stylesheet" href="style/media834.css">
+        <link rel="stylesheet" href="style/media375.css">
+    </head>
+
+<body>
+    <div class="grid-container">
+    <div class="menu-overlay" id="menuOverlay"></div>
+        <header class="main-header">
+            <div class="logo">Мемора</div>
+            <button class="burger-menu" id="burgerBtn" aria-label="Открыть меню">
+                <span class="burger-bar"></span>
+                <span class="burger-bar"></span>
+                <span class="burger-bar"></span>
+            </button>
+            <nav class="nav-menu" id="navMenu">
+                <div class="nav-links-container">
+                    <a href="#tasks" class="nav-link">Проблема</a>
+                    <a href="#method" class="nav-link">Методика</a>
+                    <a href="#advantage" class="nav-link">Преимущества</a>
+                    <a href="#train" class="nav-link">Результат</a>
+                </div>
+                <button class="arrow-btn arrow-next close-menu-btn" id="closeMenuBtn" aria-label="Закрыть меню">
+                    <svg width="64" height="24" viewBox="0 0 64 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2 12h60M62 12L52 2m10 10L52 22" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </nav>
+        </header>
+
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Помнить больше — знать&nbsp;лучше
+                </h1>
+                <p class="hero-text">
+                    Восстановите контроль над своим вниманием
+                    и&nbsp;улучшите память с&nbsp;помощью коротких системных тренировок.
+                    Станьте эффективнее в&nbsp;работе и&nbsp;жизни. Научный подход
+                    к&nbsp;развитию когнитивных навыков, разработанный для&nbsp;специалистов,
+                    работающих в&nbsp;условиях высокой информационной перегрузки
+                </p>
+                <button class="hero-button">
+                    Начать тренировку
+                </button>
+            </div>
+            <div class="hero-image-wrapper">
+                <img src="img/hero.png" alt="Hero image" class="hero-image">
+            </div>
+        </section>
+
+        <section class="tasks-section" id="tasks">
+            <div class="label">
+                Проблема
+            </div>
+            <div class="tasks-content">
+                <h2 class="title">
+                    Почему становится всё сложнее концентрироваться?
+                </h2>
+                <p class="subtitle">
+                    Наш мозг сформировался в условиях дефицита данных,
+                    но сегодня он вынужден выживать в&nbsp;океане бесконечной информации.
+                    Мы сталкиваемся с вызовами, к&nbsp;которым наша когнитивная система
+                    не&nbsp;была адаптирована эволюционно
+                </p>
+                <div class="tasks-grid">
+                    <img src="img/mobile.png" alt="" class="task-image image-1">
+                    <div class="task-card outlined card-1">
+                        <div class="task-number">
+                            01
+                        </div>
+                        <p class="task-text">
+                            Бесконечный поток уведомлений
+                            и&nbsp;новостей разрывает внимание
+                            на&nbsp;части
+                        </p>
+                    </div>
+                    <div class="task-card outlined card-2">
+                        <div class="task-number">
+                            02
+                        </div>
+                        <p class="task-text">
+                            Любая информация доступна
+                            в&nbsp;один клик, и&nbsp;мозг перестает
+                            её&nbsp;надежно запоминать
+                        </p>
+                    </div>
+                    <img src="img/stress.png" alt="" class="task-image image-2">
+                    <div class="task-card filled large-card">
+                        <div class="task-number light">
+                            03
+                        </div>
+                        <p class="task-text light">
+                            Современный человек потребляет данных больше,
+                            чем&nbsp;разум способен эффективно обработать.
+                            Это приводит к&nbsp;когнитивной усталости
+                            и&nbsp;ощущению «тумана» в&nbsp;голове
+                            в&nbsp;конце рабочего дня
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="solution-section">
+            <h2 class="title">
+                Мы решаем эти проблемы!
+            </h2>
+            <p class="subtitle">
+                Мы предлагаем системный подход к&nbsp;тренировке Ваших
+                когнитивных навыков, превращая скучную теорию
+                нейропсихологии в доступный инструмент
+            </p>
+            <div class="solution-card outlined-card card-a">
+                Внедряем<br>научные методики
+            </div>
+            <div class="solution-card outlined-card card-b">
+                Строим<br>персональный план
+            </div>
+            <div class="solution-card filled-card card-c">
+                Улучшаем<br>фокус внимания
+            </div>
+            <div class="solution-card outlined-card card-d">
+                Закрепляем<br>знания интервально
+            </div>
+        </section>
+
+        <section class="method-section" id="method">
+            <div class="label">
+                Методика
+            </div>
+            <h2 class="title">
+                Как работает наша система и какие этапы Вам предстоит пройти?
+            </h2>
+            <p class="subtitle">
+                В основе системы лежат принципы доказательной нейропсихологии и&nbsp;алгоритмы
+                интервальных повторений. Мы перевели сложные когнитивные методики в&nbsp;формат
+                быстрых и&nbsp;эффективных сессий, которые приносят реальную пользу в&nbsp;работе и&nbsp;обучении
+            </p>
+            <div class="method-card method-card-1">
+                <div class="method-number">
+                    01
+                </div>
+                <div class="method-tag">
+                    Вводное видео
+                </div>
+                <p class="method-text">
+                    Просмотр короткого ролика
+                    погрузит Вас в&nbsp;контекст
+                    и&nbsp;подготовит
+                    к&nbsp;выполнению заданий
+                </p>
+            </div>
+            <div class="method-card method-card-2">
+                <div class="method-number">
+                    02
+                </div>
+                <div class="method-tag">
+                    Интерактивный тест
+                </div>
+                <p class="method-text">
+                    Выполнение коротких
+                    упражнений на&nbsp;проверку
+                    памяти, внимания 
+                    и&nbsp;скорости мышления
+                    выявит Ваши точки роста
+                </p>
+            </div>
+            <div class="method-card method-card-3">
+            <div class="method-number">
+                03
+            </div>
+            <div class="method-tag">
+                Глубокая статистика
+            </div>
+            <p class="method-text">
+                Система рассчитает Ваши
+                показатели
+                и&nbsp;сформирует
+                когнитивный профиль
+            </p>
+            </div>
+            <div class="method-card method-card-4">
+            <div class="method-number">
+                04
+            </div>
+            <div class="method-tag">
+                Персональный план
+            </div>
+            <p class="method-text">
+                Вы узнаете какие
+                когнитивные навыки
+                требуют тренировки
+                и&nbsp;получите
+                индивидуальный график
+                занятий
+            </p>
+            </div>
+            <div class="method-card method-card-5">
+            <div class="method-number2">
+                05
+            </div>
+            <div class="method-tag2">
+                Первая тренировка
+            </div>
+            <p class="method-text">
+                Сразу после вводного
+                тестирования Вы сможете
+                перейти к&nbsp;тренировкам,
+                чтобы&nbsp;улучшить свои
+                когнитивные навыки
+            </p>
+            </div>
+        </section>
+
+        <section class="advantage-section" id="advantage">
+            <div class="label">
+                Преимущества
+            </div>
+            <h2 class="title">
+                Мы — больше, чем просто приложение
+            </h2>
+            <p class="subtitle">
+                Мы создали экосистему, которая не просто тренирует когнитивные навыки, но&nbsp;и&nbsp;меняет качество Вашей жизни
+                в&nbsp;цифровой среде
+            </p>
+            <div class="advantage-card advantage-card-1">
+            <h3 class="advantage-title">
+                Автоматизация повторений
+            </h3>
+            <p class="advantage-text">
+                Вам не нужно помнить,
+                что&nbsp;и&nbsp;когда повторить — алгоритм 
+                сам предложит закрепить
+                материал именно в&nbsp;тот момент,
+                когда это нужно для Вашей памяти
+            </p>
+            </div>
+            <div class="advantage-card-dark advantage-card-2">
+            <h3 class="advantage-title-dark">
+                Фокус на реальных задачах
+            </h3>
+            <p class="advantage-text-dark">
+                В отличие от игровых сервисов, наши упражнения развивают навыки,
+                которые&nbsp;Вы сразу начнете использовать в работе и&nbsp;обучении
+            </p>
+            </div>
+            <div class="advantage-card advantage-card-3">
+            <h3 class="advantage-title">
+                Интеллектуальная адаптация
+            </h3>
+            <p class="advantage-text">
+                Система постоянно анализирует Ваш прогресс
+                и&nbsp;корректирует сложность, чтобы&nbsp;Вы развивались
+                макисмально эффективно и&nbsp;без&nbsp;переутомления
+            </p>
+            </div>
+            <div class="advantage-card advantage-card-4">
+            <h3 class="advantage-title">
+                Комплексная поддержка
+            </h3>
+            <p class="advantage-text">
+                Мы выходим за рамки тренировок,
+                предлагая научно обоснованные
+                советы по&nbsp;сну и&nbsp;режиму дня
+                для поддержания высокого уровня
+                энергии
+            </p>
+            </div>
+        </section>
+
+        <section class="train-section" id="train">
+            <div class="label">
+                Результат
+            </div>
+            <h2 class="title">
+                К чему приведут регулярные тренировки?
+            </h2>
+            <p class="subtitle">
+                Перейдите от хаотичного потребления информации к осознанному управлению своими когнитивными ресурсами
+            </p>
+            <img src="img/calm.png" alt="" class="train-image">
+            <div class="train-items">
+                <div class="train-item">
+                    <div class="train-tag">
+                        Надёжная память
+                    </div>
+                    <p class="train-text">
+                        Информация перестанет «вылетать из&nbsp;головы». Благодаря
+                        интервальным повторениям важные данные сохранятся 
+                        в&nbsp;долговременной памяти
+                    </p>
+                </div>
+                <div class="train-item">
+                    <div class="train-tag">
+                    Высокая концентрация
+                    </div>
+                    <p class="train-text">
+                    Вы сможете удерживать фокус на сложных профессиональных
+                    задачах дольше, не&nbsp;отвлекаясь на&nbsp;внешние уведомления
+                    и&nbsp;цифровой&nbsp;шум
+                    </p>
+                </div>
+                <div class="train-item">
+                    <div class="train-tag">
+                        Ясность мышления
+                    </div>
+                    <p class="train-text">
+                        Вы избавитесь от ощущения «тумана в&nbsp;голове» к&nbsp;концу рабочего дня
+                        и сможете быстрее принимать решения в&nbsp;условиях информационной&nbsp;перегрузки
+                    </p>
+                </div>
+                <div class="train-item">
+                    <div class="train-tag">
+                    Снижение стресса
+                    </div>
+                    <p class="train-text">
+                    Понимание того, что вся важная информация под&nbsp;контролем
+                    и&nbsp;мозг&nbsp;работает эффективно, снизит уровень тревожности 
+                    от&nbsp;бесконечного потока дел
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="review-section">
+            <h2 class="title">
+                Всё ещё сомневаетесь?
+            </h2>
+            <p class="subtitle">
+                Результаты наших пользователей — это&nbsp;не&nbsp;только высокие баллы в тестах, но&nbsp;и&nbsp;реальное повышение эффективности
+                в&nbsp;повседневной деятельности
+            </p>
+            <div class="reviews-viewport">
+                <div class="reviews-grid" id="reviewsSlider">
+                    <div class="review-card">
+                        <p class="review-text">
+                            Работаю аналитиком, и к вечеру мозг обычно
+                            превращался в "кашу". После двух недель
+                            тренировок стало проще удерживать фокус
+                            на&nbsp;сложных задачах и&nbsp;не&nbsp;отвлекаться на чаты
+                        </p>
+                        <div class="review-user">
+                            <img src="img/avatar1.jpg" alt="Ирина Иванова" class="user-avatar">
+                            <div class="user-info">
+                                <span class="user-name">Ирина Иванова</span>
+                                <span class="user-role">бизнес-аналитик @ira_ivan</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review-card">
+                        <p class="review-text">
+                            Механика интервальных
+                            повторений в&nbsp;приложении реально работает:
+                            я&nbsp;чувствую, как важные данные надежно оседают
+                            в&nbsp;памяти. Очень крутой баланс научного подхода
+                            и&nbsp;простоты
+                        </p>
+                        <div class="review-user">
+                            <img src="img/avatar2.jpg" alt="Ирина Иванова" class="user-avatar">
+                            <div class="user-info">
+                                <span class="user-name">Светлана Степнова</span>
+                                <span class="user-role">проджект-менеджер @pro_sveta4</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review-card">
+                        <p class="review-text">
+                            Очень зашли рекомендации по сну и&nbsp;режиму концентрации. Приложение помогло мне
+                            не&nbsp;только&nbsp;подтянуть память, но и в целом пересмотреть свои рабочие привычки,
+                            чтобы&nbsp;меньше выгорать в&nbsp;цифровой среде
+                        </p>
+                        <div class="review-user">
+                            <img src="img/avatar3.jpg" alt="Ирина Иванова" class="user-avatar">
+                            <div class="user-info">
+                                <span class="user-name">Оксана Фёдорова</span>
+                                <span class="user-role">SMM-специалист @oksanka_fed99</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review-card">
+                        <p class="review-text">
+                            Изначально очень скептически отнеслась к&nbsp;этому
+                            приложению, но со временем действительно
+                            начала замечать изменения в&nbsp;памяти
+                            и&nbsp;внимательности. Даже детей подключила
+                            к&nbsp;подписке. Всем советую!
+                        </p>
+                        <div class="review-user">
+                            <img src="img/avatar4.jpg" alt="Ирина Иванова" class="user-avatar">
+                            <div class="user-info">
+                                <span class="user-name">Ольга Еремчук</span>
+                                <span class="user-role">администратор ресторана @olala_er</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews-arrows">
+                <button class="arrow-btn arrow-prev" id="prevBtn" aria-label="Предыдущий отзыв" disabled>
+                    <svg width="64" height="24" viewBox="0 0 64 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M62 12H2M2 12L12 2M2 12l10 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+                <button class="arrow-btn arrow-next" id="nextBtn" aria-label="Следующий отзыв">
+                    <svg width="64" height="24" viewBox="0 0 64 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2 12h60M62 12L52 2m10 10L52 22" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </div>
+        </section>
+
+        <script src="js/slider.js"></script>
+
+        <section class="action-section">
+            <h2 class="action-title">
+                Готовы взять контроль над своей памятью?
+            </h2>
+            <p class="action-subtitle">
+                Присоединяйтесь к сообществу профессионалов, которые выбирают
+                научный подход к развитию мозга. Пройдите вводное тестирование,
+                получите свой когнитивный профиль и начните тренировки,
+                адаптированные под&nbsp;Ваши&nbsp;цели
+            </p>
+            <button class="action-button">
+                Скачать приложение
+            </button>
+        </section>
+
+        <footer class="main-footer">
+            <p class="footer-slogan">
+                Помнить больше —
+                знать лучше</p>
+            <div class="footer-block footer-contacts">
+                <h3 class="footer-block-title">Контакты</h3>
+                <ul class="footer-list">
+                    <li><a href="#" class="footer-link">ВКонтакте</a></li>
+                    <li><a href="#" class="footer-link">МАКС</a></li>
+                </ul>
+            </div>
+            <div class="footer-block footer-nav">
+                <h3 class="footer-block-title">Навигация</h3>
+                <ul class="footer-list">
+                    <li><a href="#tasks" class="footer-link">Проблема</a></li>
+                    <li><a href="#method" class="footer-link">Методика</a></li>
+                    <li><a href="#advantage" class="footer-link">Преимущества</a></li>
+                    <li><a href="#train" class="footer-link">Результат</a></li>
+                </ul>
+            </div>
+            <div class="footer-logo">МЕМОРА</div>
+        </footer>
+
+    </div>
+
+    <script src="js/burger.js"></script>
+
+</body>
+</html>
